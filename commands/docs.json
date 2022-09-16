@@ -1,13 +1,8 @@
 {
-  "title": "NamelessMC Documentation",
+  "title": "Vertisan Documentation",
   "footer": "",
   "body": "",
   "parameters": [
-    "smtp",
-    "cloudflare",
-    "install",
-    "oath",
-    "friendly-urls",
-    "api"
+    "smtp"
   ]
 }
