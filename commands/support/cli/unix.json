@@ -1,0 +1,14 @@
+{
+    "title": "Unix CLI",
+    "footer": "",
+    "body": [
+        "Unix CLI has received new stats of commands for versions >= 3.4.0",
+        "```glsl",
+        "$ php artisan unix help # Shows all available commands",
+        "$ php artisan unix # Install the Unix Theme",
+        "$ php artisan unix install # Install the Unix Theme",
+        "$ php artisan unix restore # Performs a clean install of Unix Theme",
+        "$ php artisan unix remove # Removes the Unix Theme",
+        "```"
+    ]
+}

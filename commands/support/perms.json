@@ -1,0 +1,8 @@
+{
+    "title": "Permission Denied",
+    "footer": "",
+    "body": [
+        "Your Panel file permissions are incorrect. You skipped or made a mistake with the chown user:group command. This is covered in Pterodactyl installation guide [here](https://pterodactyl.io/panel/1.0/getting_started.html#set-permissions).",
+        "Remember to also chmod your storage with `cd /var/www/pterodactyl/ && chmod -R 755 storage/* bootstrap/cache/`"
+    ]
+}

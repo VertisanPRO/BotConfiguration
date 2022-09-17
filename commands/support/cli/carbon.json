@@ -1,0 +1,14 @@
+{
+    "title": "Carbon CLI",
+    "footer": "",
+    "body": [
+        "Carbon CLI has received new stats of commands for versions >= 3.4.0",
+        "```glsl",
+        "$ php artisan carbon help # Shows all available commands",
+        "$ php artisan carbon # Install the Carbon Theme",
+        "$ php artisan carbon install # Install the Carbon Theme",
+        "$ php artisan carbon restore # Performs a clean install of Carbon Theme",
+        "$ php artisan carbon remove # Removes the Carbon Theme",
+        "```"
+    ]
+}

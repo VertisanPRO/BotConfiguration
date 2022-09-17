@@ -1,0 +1,13 @@
+{
+    "title": "Optimize Fix",
+    "footer": "And yes running 2 commands twice somehow fixes it",
+    "body": [
+        "You should run the following commands:",
+        "```",
+        "php artisan optimize",
+        "composer dump-autoload --optimize",
+        "",
+        "php artisan optimize",
+        "composer dump-autoload --optimize"
+    ]
+}

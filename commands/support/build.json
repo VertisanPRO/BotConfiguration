@@ -1,0 +1,15 @@
+{
+  "title": "Building Panel",
+  "footer": "",
+  "body": [
+    "**1) Configuring Yarn**",
+    "Haven't Installed yarn yet or yarn not properly installed? Please follow [this guide](https://pterodactyl.io/community/customization/panel.html)",
+    "",
+    "**2) Building Panel**",
+    "You must run yarn to view changes, to do this follow these commands:",
+    "```",
+    "cd /var/www/pterodactyl",
+    "yarn && yarn build:production",
+    "```"
+  ]
+}

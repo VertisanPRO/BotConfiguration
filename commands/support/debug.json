@@ -1,0 +1,12 @@
+{
+    "title": "Debugging Errors",
+    "footer": "",
+    "body": [
+        "If you get a 500 error, you can enable debug mode to get more information on the error. To enable debug mode type the following command:",
+        "```glsl",
+        "nano /var/www/pterodactyl/.env",
+        "# Then find APP_DEBUG and set it to true and save the file",
+        "```",
+        "Go back to the page giving error and refresh or re-create the error. Send us a screenshot of the error."
+    ]
+}

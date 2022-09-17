@@ -1,0 +1,16 @@
+{
+    "title": "Clearing Cache",
+    "footer": "",
+    "body": [
+        "**1) Clearing Browser Cache**",
+        "Ctrl + Shift + R",
+        "",
+        "**2) Clearing Lavarel Cache**",
+        "```",
+        "cd /var/www/pterodactyl",
+        "php artisan view:clear && php artisan config:clear",
+        "```",
+        "**3) Clearing Cloudflare Cache**",
+        "Cloudflare Dashboard -> {domain} -> Caching -> Configuration -> Purge Everything"
+    ]
+}

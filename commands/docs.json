@@ -1,8 +1,8 @@
 {
-  "title": "Vertisan Documentation",
+  "title": "Documentations",
   "footer": "",
   "body": "",
   "parameters": [
-    "smtp"
+    "billing"
   ]
 }

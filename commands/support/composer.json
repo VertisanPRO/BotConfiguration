@@ -1,0 +1,7 @@
+{
+    "title": "Composer core dependency install interrupted or failed",
+    "footer": "",
+    "body": [
+        "Your composer core dependency install `composer install --no-dev --optimize-autoloader` was interrupted or failed. Try again and post here any errors that you might receive. If the command doesn't work, go to https://discord.gg/pterodactyl and ask for support there"
+    ]
+}
