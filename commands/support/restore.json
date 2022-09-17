@@ -1,0 +1,28 @@
+{
+    "title": "Reinstalling Pterodactyl",
+    "footer": "",
+    "body": [
+        "Choose the corresponding theme/addon & run the following commands:",
+        "",
+        "Unix:",
+        "```",
+        "php artisan unix restore",
+        "```",
+        "Carbon:",
+        "```",
+        "php artisan carbon restore",
+        "```",
+        "Billing:",
+        "```glsl",
+        "rm -rf /var/www/pterodactyl/resources/scripts",
+        "",
+        "# Follow https://pterodactyl.io/panel/1.0/updating.html",
+        "",
+        "yarn && yarn build:production",
+        "",
+        "# If you still see errors after this, send a screenshot to our staff members in the support channel. If everything looks okay with no errors, continue with step below!",
+        "",
+        "php artisan billing:install stable",
+        "```"
+    ]
+}

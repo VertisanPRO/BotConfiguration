@@ -1,0 +1,16 @@
+{
+    "title": "Your emails are not sending?",
+    "footer": "",
+    "body": [
+        "Read possible fixes:",
+        "",
+        "1. Does the Test button works in the Admin > Mail section?",
+        "",
+        "2. Is Mail System setup in /var/www/pterodactyl/.env? Seriously double check this, it could be not.",
+        "If you just changed it, run `php artisan config:clear`.",
+        "",
+        "3. Is `pteroq` running with no errors? Check with `systemctl status pteroq`.",
+        "",
+        "4. Are there no spaces in Nickname/First name/Second name/Email?"
+    ]
+}

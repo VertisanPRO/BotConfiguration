@@ -1,8 +1,10 @@
 {
-  "title": "Documentations",
-  "footer": "",
-  "body": "",
-  "parameters": [
-    "billing"
-  ]
+    "title": "Documentations",
+    "footer": "",
+    "body": "",
+    "parameters": [
+        "billing",
+        "billing/smtp",
+        "billing/subdomains"
+    ]
 }

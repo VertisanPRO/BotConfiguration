@@ -1,0 +1,7 @@
+{
+    "title": "Removing Modifications",
+    "footer": "",
+    "body": [
+        "To remove any type of modifications such as Modules or Themes, you can run the Pterodactyl Update script. Even if you are running the latest version, updating will just make your files back to normal. You can find it [here](https://pterodactyl.io/panel/1.0/updating.html)."
+    ]
+}

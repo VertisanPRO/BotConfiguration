@@ -12,7 +12,8 @@ module.exports = [
     {
         keywords: [
             ["ran", "optimize"],
-            ["Route", "not defined"]
+            ["Route", "not defined"],
+            ["RouteNotFoundException"]
         ],
         response: {
             "title": "Did you run php artisan optimize?",
@@ -22,9 +23,24 @@ module.exports = [
                 "```",
                 "php artisan optimize",
                 "composer dump-autoload --optimize",
-                "",
+                "```",
+                "```",
                 "php artisan optimize",
-                "composer dump-autoload --optimize"
+                "composer dump-autoload --optimize",
+                "```"
+            ]
+        }
+    },
+    {
+        keywords: [["500 SERVER ERROR"]],
+        response: {
+            "title": "Getting Panel Logs",
+            "footer": "",
+            "body": [
+                "Get your panel logs with this simple command:",
+                "```",
+                "tail -n 100 /var/www/pterodactyl/storage/logs/laravel-$(date +%F).log | nc pteropaste.com 99",
+                "```"
             ]
         }
     }

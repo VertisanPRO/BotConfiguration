@@ -1,0 +1,7 @@
+{
+    "title": "Setting up Emails",
+    "footer": "",
+    "body": [
+        "You need to setup a SMTP server in order to send Emails, guide on how to setup SMTP is on [this page](https://github.com/Mubeen142/billing-docs/wiki/SMTP-Configuration)"
+    ]
+}

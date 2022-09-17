@@ -1,0 +1,12 @@
+{
+    "title": "Information",
+    "footer": "",
+    "body": "",
+    "parameters": [
+        "get-role",
+        "get-verified",
+        "license",
+        "no-discount",
+        "verified"
+    ]
+}

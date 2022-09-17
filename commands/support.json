@@ -1,8 +1,23 @@
 {
-  "title": "Vertisan Support",
-  "footer": "",
-  "body": "",
-  "parameters": [
-    "core-config-writable"
-  ]
+    "title": "Vertisan Support",
+    "footer": "",
+    "body": "",
+    "parameters": [
+        "build",
+        "cache",
+        "composer",
+        "debug",
+        "emails",
+        "optimize",
+        "perms",
+        "plogs",
+        "restore",
+        "share",
+        "update",
+        "widgetbot",
+        "cli/carbon",
+        "cli/unix",
+        "nexus/discord",
+        "winscp/settings"
+    ]
 }

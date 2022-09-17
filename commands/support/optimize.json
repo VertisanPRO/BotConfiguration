@@ -6,8 +6,10 @@
         "```",
         "php artisan optimize",
         "composer dump-autoload --optimize",
-        "",
+        "```",
+        "```",
         "php artisan optimize",
-        "composer dump-autoload --optimize"
+        "composer dump-autoload --optimize",
+        "```"
     ]
 }

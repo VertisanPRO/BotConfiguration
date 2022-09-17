@@ -1,0 +1,16 @@
+{
+    "title": "WinSCP Settings",
+    "footer": "",
+    "body": [
+        "Make sure when using `WinSCP` to use the following settings to prevent **issues** with file **uploads** like **missing files**, **not overwritten files**",
+        "```ini",
+        "[ Preferences > Transfer > Background ]",
+        "uncheck \"Transfer on background by default\"",
+        "uncheck \"No confirmations for background transfers\"",
+        "",
+        "[ Preferences > Environment ]",
+        "check \"Overwriting of files\"",
+        "check \"Deleting of old files\"",
+        "```"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "title": "Getting Panel Logs",
+    "footer": "",
+    "body": [
+        "Get your panel logs with this simple command:",
+        "```",
+        "tail -n 100 /var/www/pterodactyl/storage/logs/laravel-$(date +%F).log | nc pteropaste.com 99",
+        "```"
+    ]
+}
