@@ -52,7 +52,7 @@ module.exports = [
             "body": [
                 "Seems you don't own/haven't bought Billing v2. You can buy it on https://wemx.net",
                 "",
-                "If you need to install the installer, you have to download it where you bought ([PterodactylMarket](https://pterodactylmarket.com), [Pterodactyl-Resources](https://pterodactyl-resources), [BuiltByBit](https://builtbybit.com))",
+                "If you need to install the installer for Billing v1, you have to download it where you bought ([PterodactylMarket](https://pterodactylmarket.com), [Pterodactyl-Resources](https://pterodactyl-resources), [BuiltByBit](https://builtbybit.com))",
                 "",
                 "If you already have an installer and need to install Billing v1, run",
                 "```",
