@@ -60,5 +60,31 @@ module.exports = [
                 "```"
             ]
         }
+    },
+    {
+        keywords: [["domains do not match"]],
+        response: {
+            "title": "Setting up Pterodactyl properly",
+            "footer": "If you need to change the URL, open up a ticket",
+            "body": [
+                "When the license was created it was assigned to a Panel URL, it must match in `/var/www/pterodactyl/.env` at `APP_URL`",
+                "",
+                "For example if your license has been created for `https://example.com`, in the config it should like this:",
+                "```do",
+                "APP_URL=\"https://example.com\"",
+                "```"
+            ]
+        }
+    },
+    {
+        keywords: [["you use a proxy"]],
+        response: {
+            "title": "Installing an Addon/a Theme",
+            "footer": "",
+            "body": [
+                "Seems that you use a proxy, it could be Cloudflare, or your own. If you want to keep it, open up a ticket at <#898665521640267869> and send the error there",
+                "After the commands that the Staff ran, you can install the Addon/Theme now"
+            ]
+        }
     }
 ];
