@@ -50,7 +50,7 @@ module.exports = [
             "title": "Problems with installing Billing v1",
             "footer": "",
             "body": [
-                "Seems you don't own/haven't bought Billing v2. You can do it on https://wemx.net",
+                "Seems you don't own/haven't bought Billing v2. You can buy it on https://wemx.net",
                 "",
                 "If you need to install the installer, you have to download it where you bought ([PterodactylMarket](https://pterodactylmarket.com), [Pterodactyl-Resources](https://pterodactyl-resources), [BuiltByBit](https://builtbybit.com))",
                 "",
@@ -83,6 +83,7 @@ module.exports = [
             "footer": "",
             "body": [
                 "Seems that you use a proxy, it could be Cloudflare, or your own. If you want to keep it, open up a ticket at <#898665521640267869> and send the error there",
+                "",
                 "After the commands that the Staff ran, you can install the Addon/Theme now"
             ]
         }
