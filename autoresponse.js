@@ -45,7 +45,7 @@ module.exports = [
         }
     },
     {
-        keywords: [["Table 'panel.billing_settings' doesn't exist"], ["401 Unauthorized"]],
+        keywords: [["Base table or view not found: 1146 Table 'panel.billing"], ["401 Unauthorized"]],
         response: {
             "title": "Problems with installing Billing v1",
             "footer": "",
