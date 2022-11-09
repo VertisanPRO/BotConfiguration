@@ -43,5 +43,22 @@ module.exports = [
                 "```"
             ]
         }
+    },
+    {
+        keywords: [["Table 'panel.billing_settings' doesn't exist"], ["401 Unauthorized"]],
+        response: {
+            "title": "Problems with installing Billing v1",
+            "footer": "",
+            "body": [
+                "Seems you don't own/haven't bought Billing v2. You can do it on https://wemx.net",
+                "",
+                "If you need to install the installer, you have to download it where you bought ([PterodactylMarket](https://pterodactylmarket.com), [Pterodactyl-Resources](https://pterodactyl-resources), [BuiltByBit](https://builtbybit.com))",
+                "",
+                "If you already have an installer and need to install Billing v1, run",
+                "```",
+                "php artisan billing:install legacy",
+                "```"
+            ]
+        }
     }
 ];
