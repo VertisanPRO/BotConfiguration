@@ -87,5 +87,21 @@ module.exports = [
                 "After the commands that the Staff ran, you can install the Addon/Theme now"
             ]
         }
+    },
+    {
+        keywords: [["Undefined array key 1"]],
+        response: {
+            "title": "Installing Billing",
+            "footer": "",
+            "body": [
+                "You have to install the installer once again. Run these commands aswell as replace `<license_key>` with your License Key",
+                "",
+                "```do",
+                "wget -O Billing-installer.zip https://wemx.net/api/installer/<license_key>",
+                "unzip Billing-installer.zip && rm Billing-installer.zip",
+                "php artisan billing:install",
+                "```"
+            ]
+        }
     }
 ];
