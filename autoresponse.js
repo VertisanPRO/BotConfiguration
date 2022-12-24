@@ -103,5 +103,15 @@ module.exports = [
                 "```"
             ]
         }
+    },
+    {
+        keywords: [["cannot open /html"]],
+        response: {
+            "title": "Installing Unix Theme",
+            "footer": "",
+            "body": [
+                "This is a problem with the Unix Installer. Please see [this message](https://discord.com/channels/760945720470667294/850426169748488203/1043138667704762438) for a fix"
+            ]
+        }
     }
 ];
